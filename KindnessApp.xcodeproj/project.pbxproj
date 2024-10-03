@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		364055872B5DC63C00E2DB59 /* KindnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364055862B5DC63C00E2DB59 /* KindnessAppApp.swift */; };
-		364055892B5DC63C00E2DB59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364055882B5DC63C00E2DB59 /* ContentView.swift */; };
+		364055892B5DC63C00E2DB59 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364055882B5DC63C00E2DB59 /* ProfileView.swift */; };
 		3640558B2B5DC63E00E2DB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3640558A2B5DC63E00E2DB59 /* Assets.xcassets */; };
 		3640558E2B5DC63E00E2DB59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3640558D2B5DC63E00E2DB59 /* Preview Assets.xcassets */; };
+		364055972B5DC7A900E2DB59 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364055962B5DC7A900E2DB59 /* DataController.swift */; };
+		3640559D2B5DC84600E2DB59 /* KindnessApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3640559B2B5DC84600E2DB59 /* KindnessApp.xcdatamodeld */; };
+		367A48682B7AC04300D589E3 /* UserProfile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A48662B7AC04300D589E3 /* UserProfile+CoreDataClass.swift */; };
+		367A48692B7AC04300D589E3 /* UserProfile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A48672B7AC04300D589E3 /* UserProfile+CoreDataProperties.swift */; };
+		367A48702B7AC09700D589E3 /* ProfileBadge+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A486E2B7AC09700D589E3 /* ProfileBadge+CoreDataClass.swift */; };
+		367A48712B7AC09700D589E3 /* ProfileBadge+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A486F2B7AC09700D589E3 /* ProfileBadge+CoreDataProperties.swift */; };
+		367A487C2B7AC7F300D589E3 /* KindnessAct+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A487A2B7AC7F300D589E3 /* KindnessAct+CoreDataClass.swift */; };
+		367A487D2B7AC7F300D589E3 /* KindnessAct+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367A487B2B7AC7F300D589E3 /* KindnessAct+CoreDataProperties.swift */; };
+		36BBD2D52CAF1E9600A4AE15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BBD2D42CAF1E9600A4AE15 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		364055832B5DC63C00E2DB59 /* KindnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		364055862B5DC63C00E2DB59 /* KindnessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindnessAppApp.swift; sourceTree = "<group>"; };
-		364055882B5DC63C00E2DB59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		364055882B5DC63C00E2DB59 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3640558A2B5DC63E00E2DB59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3640558D2B5DC63E00E2DB59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		364055962B5DC7A900E2DB59 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		3640559C2B5DC84600E2DB59 /* KindnessApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KindnessApp.xcdatamodel; sourceTree = "<group>"; };
+		367A48662B7AC04300D589E3 /* UserProfile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		367A48672B7AC04300D589E3 /* UserProfile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		367A486E2B7AC09700D589E3 /* ProfileBadge+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileBadge+CoreDataClass.swift"; sourceTree = "<group>"; };
+		367A486F2B7AC09700D589E3 /* ProfileBadge+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileBadge+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		367A487A2B7AC7F300D589E3 /* KindnessAct+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KindnessAct+CoreDataClass.swift"; sourceTree = "<group>"; };
+		367A487B2B7AC7F300D589E3 /* KindnessAct+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KindnessAct+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		36BBD2D32CAF1DB200A4AE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		36BBD2D42CAF1E9600A4AE15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +54,12 @@
 		3640557A2B5DC63C00E2DB59 = {
 			isa = PBXGroup;
 			children = (
+				367A487A2B7AC7F300D589E3 /* KindnessAct+CoreDataClass.swift */,
+				367A487B2B7AC7F300D589E3 /* KindnessAct+CoreDataProperties.swift */,
+				367A486E2B7AC09700D589E3 /* ProfileBadge+CoreDataClass.swift */,
+				367A486F2B7AC09700D589E3 /* ProfileBadge+CoreDataProperties.swift */,
+				367A48662B7AC04300D589E3 /* UserProfile+CoreDataClass.swift */,
+				367A48672B7AC04300D589E3 /* UserProfile+CoreDataProperties.swift */,
 				364055852B5DC63C00E2DB59 /* KindnessApp */,
 				364055842B5DC63C00E2DB59 /* Products */,
 			);
@@ -51,10 +76,14 @@
 		364055852B5DC63C00E2DB59 /* KindnessApp */ = {
 			isa = PBXGroup;
 			children = (
+				36BBD2D32CAF1DB200A4AE15 /* Info.plist */,
+				3640559B2B5DC84600E2DB59 /* KindnessApp.xcdatamodeld */,
 				364055862B5DC63C00E2DB59 /* KindnessAppApp.swift */,
-				364055882B5DC63C00E2DB59 /* ContentView.swift */,
+				364055882B5DC63C00E2DB59 /* ProfileView.swift */,
+				364055962B5DC7A900E2DB59 /* DataController.swift */,
 				3640558A2B5DC63E00E2DB59 /* Assets.xcassets */,
 				3640558C2B5DC63E00E2DB59 /* Preview Content */,
+				36BBD2D42CAF1E9600A4AE15 /* SceneDelegate.swift */,
 			);
 			path = KindnessApp;
 			sourceTree = "<group>";
@@ -137,7 +166,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364055892B5DC63C00E2DB59 /* ContentView.swift in Sources */,
+				367A48692B7AC04300D589E3 /* UserProfile+CoreDataProperties.swift in Sources */,
+				364055972B5DC7A900E2DB59 /* DataController.swift in Sources */,
+				364055892B5DC63C00E2DB59 /* ProfileView.swift in Sources */,
+				367A48712B7AC09700D589E3 /* ProfileBadge+CoreDataProperties.swift in Sources */,
+				367A487C2B7AC7F300D589E3 /* KindnessAct+CoreDataClass.swift in Sources */,
+				3640559D2B5DC84600E2DB59 /* KindnessApp.xcdatamodeld in Sources */,
+				367A48682B7AC04300D589E3 /* UserProfile+CoreDataClass.swift in Sources */,
+				36BBD2D52CAF1E9600A4AE15 /* SceneDelegate.swift in Sources */,
+				367A487D2B7AC7F300D589E3 /* KindnessAct+CoreDataProperties.swift in Sources */,
+				367A48702B7AC09700D589E3 /* ProfileBadge+CoreDataClass.swift in Sources */,
 				364055872B5DC63C00E2DB59 /* KindnessAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +308,7 @@
 				DEVELOPMENT_TEAM = 576M7S8369;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = KindnessApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +337,7 @@
 				DEVELOPMENT_TEAM = 576M7S8369;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = KindnessApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -339,6 +377,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3640559B2B5DC84600E2DB59 /* KindnessApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3640559C2B5DC84600E2DB59 /* KindnessApp.xcdatamodel */,
+			);
+			currentVersion = 3640559C2B5DC84600E2DB59 /* KindnessApp.xcdatamodel */;
+			path = KindnessApp.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3640557B2B5DC63C00E2DB59 /* Project object */;
 }
